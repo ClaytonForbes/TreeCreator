@@ -14,7 +14,7 @@ def list_files_to_file(startpath, output_file):
             for file in files:
                 f.write(f"{subindent}- {file}\n")
 
-folder_path = "C:\\WolfTracker\\WealthWise-1\\WealthWise-1\\WealthWolf\\WealthWise\\WealthWise"
-output_file = "C:\\Users\\101cl\\OneDrive\\Desktop\\Treemaker\\file_tree.txt"
+folder_path = "Path on what folder you want made into a tree"
+output_file = "Path on where you want that file to go"
 list_files_to_file(folder_path, output_file)
 print(f"File tree saved to {output_file}")
